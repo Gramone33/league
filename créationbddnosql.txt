@@ -1,0 +1,64 @@
+var team =
+{
+  "id_team": 1,
+  "Team_name": "Arduino",
+  "City": "Bordeaux",
+  "Coach": "Mickey",
+  "Captain": 1,
+  "Id_player": [1, 4, 40]
+};
+var team2 = 
+{
+  "id_team": 2,
+  "Team_name": "Rasberry",
+  "City": "Paris",
+  "Coach": "Minnie",
+  "Captain": 14,
+  "Id_player": [12, 14, 42]
+};
+
+var player = 
+{
+  "Id_player": 1,
+  "name": "Piter",
+  "position": "guardian",
+  "skills": "good",
+  "injuries": "knee",
+  "Captain": true,
+  "id_team": 1
+};
+var player2 = 
+{
+  "Id_player": 4,
+  "name": "Momo",
+  "position": "wing",
+  "skills": "bad",
+  "injuries": "shoulder",
+  "Captain": false,
+  "id_team": 1
+};
+var player3 =
+{
+  "Id_player": 40,
+  "name": "Krys",
+  "position": "wing",
+  "skills": "good",
+  "injuries": "head",
+  "Captain": false,
+  "id_team": 1
+};
+
+var game = 
+{
+    "host_team": "Arduino",
+    "guest_team": "Rasberry",
+    "date": "2020-20-07",
+    "note": "1-4"
+  };
+
+db.teams.insert(team);
+db.teams.insert(team2);
+db.players.insert(player);
+db.players.insert(player2);
+db.players.insert(player3);
+db.games.insert(game)
