@@ -1,0 +1,8 @@
+{
+  "id_team": 2,
+  "Team_name": "Rasberry",
+  "City": "Paris",
+  "Coach": "Minnie",
+  "Captain": 14,
+  "Id_player": [12, 14, 42]
+}

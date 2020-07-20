@@ -1,0 +1,9 @@
+{
+  "Id_player": 1,
+  "name": "Piter",
+  "position": "guardian",
+  "skills": "good",
+  "injuries": "knee",
+  "Captain": true,
+  "id_team": 1
+}

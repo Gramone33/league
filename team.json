@@ -1,0 +1,8 @@
+{
+  "id_team": 1,
+  "Team_name": "Arduino",
+  "City": "Bordeaux",
+  "Coach": "Mickey",
+  "Captain": 1,
+  "Id_player": [1, 4, 40]
+}

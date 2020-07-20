@@ -1,0 +1,9 @@
+{
+  "Id_player": 40,
+  "name": "Krys",
+  "position": "wing",
+  "skills": "good",
+  "injuries": "head",
+  "Captain": false,
+  "id_team": 1
+}

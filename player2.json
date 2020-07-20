@@ -1,0 +1,9 @@
+{
+  "Id_player": 4,
+  "name": "Momo",
+  "position": "wing",
+  "skills": "bad",
+  "injuries": "shoulder",
+  "Captain": false,
+  "id_team": 1
+}
